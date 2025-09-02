@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@apollo/client": "^3.13.6",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.10.1",
+    "jsonwebtoken": "^9.0.2",
+    "kill": "^0.0.2",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.10",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sequelize": "^6.37.7",
+    "stripe": "^18.1.0"
+  }
+}
