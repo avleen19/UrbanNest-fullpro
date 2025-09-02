@@ -1,0 +1,145 @@
+/* Main Section */
+.discount-banner {
+  padding: 40px 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: right; /* Right alignment for text */
+  height: 500px; /* Adjusted height to match screenshot */
+  background-color: #2e7d7d; /* Teal background from screenshot */
+  position: relative; /* For overlay if needed */
+}
+
+/* Content Container */
+.discount-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Right-align content */
+  justify-content: center; /* Center vertically */
+  height: 100%;
+  padding-right: 50px; /* Adjusted padding for right alignment */
+}
+
+/* Text Section */
+.discount-text {
+  margin-bottom: 20px;
+}
+
+.discount-text h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2; /* Ensure proper line spacing for two lines */
+  color: #ffffff; /* White text for contrast */
+}
+
+.discount-text p {
+  font-size: 16px;
+  margin: 5px 0 20px;
+  color: #d3d3d3; /* Light gray for "Join our mailing list" */
+}
+
+/* Form Section */
+.discount-form {
+  display: flex;
+  gap: 10px;
+  align-items: center; /* Keep email and button on same line */
+  justify-content: flex-end; /* Right-align form */
+}
+
+.email-input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  width: 250px;
+  outline: none;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.shop-now-button {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.shop-now-button:hover {
+  background-color: #2d2d44;
+}
+
+/* Message */
+.message {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .discount-banner {
+    height: 250px; /* Reduce height on tablet */
+  }
+
+  .discount-text h2 {
+    font-size: 28px;
+  }
+
+  .discount-text p {
+    font-size: 14px;
+  }
+
+  .email-input {
+    width: 200px;
+  }
+
+  .shop-now-button {
+    padding: 8px 16px;
+  }
+
+  .discount-content {
+    padding-right: 30px; /* Reduce padding on tablet */
+  }
+}
+
+@media (max-width: 600px) {
+  .discount-banner {
+    height: 200px; /* Further reduce height on mobile */
+    padding: 20px 10px;
+  }
+
+  .discount-form {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .email-input {
+    width: 100%;
+  }
+
+  .shop-now-button {
+    width: 100%;
+  }
+
+  .discount-content {
+    padding-right: 20px; /* Further reduce padding on mobile */
+  }
+
+  .discount-text h2 {
+    font-size: 24px;
+  }
+
+  .discount-text p {
+    font-size: 12px;
+  }
+}
